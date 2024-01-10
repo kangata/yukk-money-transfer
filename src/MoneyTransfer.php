@@ -105,7 +105,7 @@ class MoneyTransfer
         return static::handleResponse($resp, 'result');
     }
 
-    public static function findDisbursement(string $code, string $field = null)
+    public static function findDisbursement(string $code, ?string $field = null)
     {
         $query = $field ? compact('field') : [];
 

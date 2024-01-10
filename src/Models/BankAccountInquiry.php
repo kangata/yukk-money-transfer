@@ -10,8 +10,7 @@ class BankAccountInquiry implements Arrayable
         protected string $bankCode,
         protected string $accountNumber,
         protected string $holderName,
-    )
-    {
+    ) {
         //
     }
 

@@ -18,13 +18,11 @@ class Client
 
     /**
      * Request with authorization token
-     *
-     * @return self
      */
     public function withAuth(): self
     {
         return $this->withHeaders([
-            'Authorization' => 'Bearer ' . Token::instance()->get(),
+            'Authorization' => 'Bearer '.Token::instance()->get(),
         ]);
     }
 

@@ -12,8 +12,7 @@ class Disbursement implements Arrayable
         protected string $accountNumber,
         protected int $amount,
         protected ?string $remark = null,
-    )
-    {
+    ) {
         //
     }
 
